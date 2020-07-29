@@ -1,0 +1,155 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Ledger', serif;
+}
+
+container{
+    width: 1400px;
+    padding: 0 100px 0 100px;
+    margin: 0 auto;
+}
+
+#portfolio, #work, #contact, #header {
+    height: 400px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1400px;
+    margin: auto;
+}
+
+.half-width {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 45px 145px 45px;
+}
+
+.third-width {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    float: left;
+    padding: 65px 0 55px 46px;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero-background.png');
+    background-size: cover;
+}
+header h1 {
+    font-family: 'Milonga', cursive;
+    font-size: 72px;
+    color: #ffffff;
+    padding: 85px 0 45px 35px;
+    clear: both;
+}
+
+header h1 span {
+    color: #1CFEBA;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #1CFEBA;
+    padding-left: 45px;
+    padding-right: 65px;
+}
+
+header h4 {
+    color: #1CFEBA;
+    font-size: 18px;
+    padding-left: 45px;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    width: 1400px;
+    height: 1550px;
+    background-color: #9D8Df1;
+    overflow: hidden;
+}
+
+#portfolio h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    padding-left: 475px;
+    color: #1CFEBA;
+}
+
+#portfolio h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+div.a {
+    text-align: right;
+}
+
+/***** ABOUT-ME *****/
+
+#about-me h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    padding-left: 475px;
+    color: #1CFEBA;
+}
+#about-me {
+    height: 550px;
+    background: url('../img/about-me.png');
+    background-size: cover;
+    overflow: hidden;
+}
+#about-me p {
+    padding-left: 45px;
+}
+
+#about-me span {
+    font-weight: bold;
+}
+
+/***** CONNECT *****/
+
+#connect {
+    width: 1400px;
+    background-color: #B8CDF8;
+    overflow: hidden;
+}
+
+#connect h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 42px;
+    padding-left: 475px;
+    color: #1CFEBA;
+}
+
+#connect ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#connect ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#connect footer {
+    padding-left: 475px;
+}
